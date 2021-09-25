@@ -39,7 +39,7 @@ for( int i = 0; i < times; i++)
 // convert from fahrenheit to celsius
 if(CorF.equals("F") || CorF.equals("f"))
   {
-	  System.out.println( (degrees - 32) * (9.0/5) );
+	  System.out.println( (degrees - 32) * (5.0/9) );
 	  System.out.println( "degrees Celsius");
   }
 
